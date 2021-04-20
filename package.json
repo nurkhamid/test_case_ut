@@ -1,0 +1,22 @@
+{
+  "name": "test_ut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "locker_case.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nurkhamid/test_case_ut.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nurkhamid/test_case_ut/issues"
+  },
+  "homepage": "https://github.com/nurkhamid/test_case_ut#readme",
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}

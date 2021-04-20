@@ -1,15 +1,15 @@
-function locker_case(x){
+module.exports = (x) => {
     floor_number = 1;
     flag_nine = true;
     flag_three = false;
     flag_seven = false;
     flag_two = false;
     temp = [];
-    if (Number.isInteger(x)){
+    if (Number.isInteger(x) && x > 0){
         for(i = 1; i <= x; i++){
             temp.push(i);
             if (x==i){
-                return 'Locker is found. Go to floor ' + floor_number
+                return 'Locker on floor ' + floor_number
                 // console.log('hi');
             }
             else if (flag_nine && temp.length==9){
@@ -38,7 +38,7 @@ function locker_case(x){
             }
         }
     } else {
-        return 'Please input a number'
+        return 'Please input a valid number'
     }
 }
-console.log(locker_case(41));
+// console.log(locker_case(0));
